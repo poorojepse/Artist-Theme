@@ -620,7 +620,7 @@ header, footer {
 
 header {
   padding-bottom: 50px;
-  background-image: url(/assets/img/logo.svg), url(/assets/img/hero-bg.jpg);
+  background-image: url(../img/logo.svg), url(../img/hero-bg.jpg);
   background-position: 30px 20px, 50% 50%; }
   header .logo {
     height: 50px;
@@ -668,7 +668,7 @@ header {
     header h1 {
       padding-top: 0px; } }
 footer {
-  background-image: url(/assets/img/logo.svg), url(/assets/img/hero-bg.jpg); }
+  background-image: url(../img/logo.svg), url(../img/hero-bg.jpg); }
   footer .lockup {
     padding: 50px 30px; }
     footer .lockup:after {
@@ -729,7 +729,7 @@ footer {
     -ms-flex-order: 3;
     height: 200px;
     width: 200px;
-    background-image: url(/assets/img/face.jpg);
+    background-image: url(../img/face.jpg);
     background-size: cover;
     background-position: center; }
   .face-lockup [class^="icon-"] {
