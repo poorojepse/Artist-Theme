@@ -52,7 +52,7 @@ function workLoad() {
             newTitle = $this.find('strong').text(),
             newFolder = $this.find('.thumb-unit').data('folder'),
             spinner = '<div class="loader">Loading...</div>',
-            newHTML = '../'+ newFolder;
+            newHTML = 'Artist-Theme/work/'+ newFolder;
         
         $('.project-load').html(spinner).load(newHTML);
         $('.project-title').text(newTitle);
